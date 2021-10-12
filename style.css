@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.col{
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+    line-height: 40px;
+}
+.price{
+    list-style-type: none;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    text-align: center;
+}
+.price:hover{
+    box-shadow: 0 8px 15px 0 red;
+}
+.price .header{
+    background-color: lightskyblue;
+    color: red;
+    font-size: 28px;
+}
+button{
+    background-color: rgb(69, 69, 240);
+    color: white;
+    font-size: 20px;
+}
